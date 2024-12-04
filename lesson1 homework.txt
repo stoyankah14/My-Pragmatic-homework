@@ -1,0 +1,39 @@
+1. //price
+
+//price/text()
+
+2. count(//book)
+
+3. sum(//price/text())
+
+4. //title[contains(text(), 'XML')]
+
+5. //title[@lang='bg'] или //title[contains(@lang,'bg')] (edited) 
+
+или //title[@lang='bg']
+
+
+1.//child
+
+2. //child[@name = 'Child_1']
+
+3. //child[@id <=3]
+
+4.//child/text() (edited) 
+
+5./parents/Parent[last()]//child[1]
+
+6. /parents/Parent[last()]//child[last()]
+
+
+1. //country
+
+2.//country/text()
+
+3. //time[windSpeed[@name='Light breeze']]
+
+4.//windSpeed/@mps
+
+5.sum(//windSpeed/@mps)
+
+6. count(//windSpeed/@mps)
